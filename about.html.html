@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About FuBu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2? family=poopins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">\
+</head>
+<body>
+     <div class="header">
+     <div class="container">
+            <div class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" width="200px">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <b>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="product.html.html">PRODUCTS</a></li>
+                <li><a href="about.html.html">ABOUT</a></li>
+                <li><a href="contact.html.html">CONTACT</a></li>
+                </b>
+            </ul>
+        </nav>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    
+    
+     <!------------ offer ------------>
+     <div class="sub-offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                 <div style="text-align: center;"> <img src="images/17.jpg" alt="Centered Image">
+</div>
+                </div>
+                <div class="col-2">
+                    <h1>FUBU Fashion Stylish</h1>
+                    <small>In 1992, four friends from Hollis, Queens came together with one vision — to defy the odds and create a line of sportswear <br> made by the people who wore it — for us, by us. The brand they started launched the streetwear industry we know today. <br> In 2020, FUBU returns to its roots, launching a new collection that combines the contemporary and the classic.</small>
+                    <br><a href=""class="btn">Buy Now &#8594;</a>
+
+                </div>
+            </div>
+        </div>
+     </div>
+
+  <!-------footer----->
+   <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Andriod and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="images/appstore.jpg">
+                    <img src="images/googleplay.jpg">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/fblogo.jpg" height="300px">
+                <p> FASHION IS ABOUT SOMETHING THAT COMES FROM WITHIN YOU .</p>
+            </div>
+                <div class="footer-col-3">
+                <h3>Useful Link</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Youtube</li>
+                    <li>Instagram</li>
+                    <li>Tiktok</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Fubu Store Online Shop</p>
+    </div>
+   </div>
+
+   <!------js for toggle menu------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+    else
+        {
+            MenuItems.style.maxHeight = "0px";  
+        }
+    }
+</script>
+
+</body>
+</html>
